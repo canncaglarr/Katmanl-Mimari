@@ -52,7 +52,7 @@ namespace DAL
             }
             catch (Exception ex)
             {
-                throw;
+                throw; 
             }
         }
         public DataTable Kaydet(string ad,string soyad,string no,string tel)
